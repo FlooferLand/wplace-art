@@ -8,13 +8,18 @@ import dedent from "dedent";
 console.clear();
 
 const rootDirPath = path.join(import.meta.dir, "..", "..");
+const github = {
+    link: "https://github.com/FlooferLand/wplace-art",
+    issues: "https://github.com/FlooferLand/wplace-art/issues",
+    pulls: "https://github.com/FlooferLand/wplace-art/pulls"
+}
 
 // Generating schemas
 const metadataSchema = await generateSchema(path.join(rootDirPath, "metadataSchema.json"), "GeneratorMetadata");
 const overlaySchema = await generateSchema(path.join(rootDirPath, "overlaySchema.json"), "GeneratorOverlay");
 
 // Reading everything
-let links: { name: string, link: string }[] = [];
+let links: { name: string, repo_link: string, wplace_link: string }[] = [];
 for (const dataId of await fs.readdir(rootDirPath)) {
     const rootSubDir = path.join(rootDirPath, dataId);
     const dataStat = await fs.lstat(rootSubDir);
@@ -95,7 +100,8 @@ for (const dataId of await fs.readdir(rootDirPath)) {
     // Finished
     links.push({
         name: metadata.name,
-        link: `./${dataId}/`
+        repo_link: `./${dataId}/`,
+        wplace_link: metadata.coords.link
     });
     console.log(`Wrote to '${dataId}'!`);
 }
@@ -108,11 +114,12 @@ const mainReadme = md.joinBlocks([
 
     // Index
     md.heading("Index", { level: 2 }),
-    md.orderedList(links.map(({ name, link }) => md.link(link, name))),
+    md.orderedList(links.map(({ name, repo_link, wplace_link }) => `${md.link(repo_link, name)} ${md.link(wplace_link, md.italic("[Q]"))}`)),
+    md.italic("Click the 'Q' for a quick link that takes you directly to the wplace url!"),
 
     // Help!
-    md.heading("Help out!", { level: 2 }),
-    "If you'd like to help, click the coordinates inside the pages to be sent to their locations on wplace.",
+    md.heading("Help against griefers!", { level: 2 }),
+    "If you'd like to help fight against griefers, click the coordinates inside the pages to be sent to their locations on wplace.",
     dedent`
         If you use any overlay mods,
         I've sometimes provided JSON files for ${md.link("https://greasyfork.org/en/scripts/545041-wplace-overlay-pro", "Overlay Pro")}
@@ -120,14 +127,21 @@ const mainReadme = md.joinBlocks([
     `,
     `The reference images will update as well due to them being hosted on my Git repo, so its generally just nice to work with.`,
 
-    // Contact
-    md.italic("Feel free to contact me at Discord on \[AT\] flooferland"),
-    md.italic("I also recommend you buy or build Aseprite from source to view the aseprite files."),
+    // Contribute
+    md.heading("Contribute art!", { level: 2 }),
+    `If you'd like to add art to this repository, you can!\n`,
+    `Open up an ${md.link(github.issues, "issue")} (to ask for it to be added), or a ${md.link(github.pulls, "pull request")} (to add it yourself).\n`,
+    `Make sure you are ${md.italic("NOT")} modifying any markdown ${md.italic("(md)")} files yourself as those are automatically generated.\n`,
 
     // License
     md.heading("License", { level: 2 }),
     "Some of these artworks have no license, some do. Always check before using any of them\n",
     "View the `LICENSE.md` of each directory respectively, as some are my own works.",
+
+    // Contact
+    md.heading("Other stuff", { level: 2 }),
+    md.italic("Feel free to contact me at Discord on \[AT\] flooferland"),
+    md.italic("I also recommend you buy or build Aseprite from source to view the aseprite files."),
 
     // End note
     md.horizontalRule,

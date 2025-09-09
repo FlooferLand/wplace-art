@@ -4,16 +4,18 @@ This repo contains a bunch of art I'm making for wplace, as well as art I'm help
 
 ## Index
 
-1. [Boykissy](./boykissy/)
-2. [Espeon zone](./espeon_zone/)
-3. [Puro](./puro/)
-4. [Scav Prototype creature](./scav_creature/)
-5. [The Finals logo](./the_finals_logo/)
-6. [Vapie](./vapie/)
+1. [Boykissy](./boykissy/) [*[Q]*](https://wplace.live/?lat=46.182690758083275&lng=21.34256802802733&zoom=15.887549562458203)
+2. [Espeon zone](./espeon_zone/) [*[Q]*](https://wplace.live/?lat=46.17550974637054&lng=21.311806309277333&zoom=16.475640118883295)
+3. [Puro](./puro/) [*[Q]*](https://wplace.live/?lat=46.16650172790631&lng=21.18735318427732&zoom=16.155257546899563)
+4. [Scav Prototype creature](./scav_creature/) [*[Q]*](https://wplace.live/?lat=46.17830923535645&lng=21.372275059277328&zoom=16.207932134442082)
+5. [The Finals logo](./the_finals_logo/) [*[Q]*](https://wplace.live/?lat=46.18171711654079&lng=21.35610318427733&zoom=15.905107758305785)
+6. [Vapie](./vapie/) [*[Q]*](TODO)
 
-## Help out!
+*Click the 'Q' for a quick link that takes you directly to the wplace url!*
 
-If you'd like to help, click the coordinates inside the pages to be sent to their locations on wplace.
+## Help against griefers!
+
+If you'd like to help fight against griefers, click the coordinates inside the pages to be sent to their locations on wplace.
 
 If you use any overlay mods,
 I've sometimes provided JSON files for [Overlay Pro](https://greasyfork.org/en/scripts/545041-wplace-overlay-pro)
@@ -21,15 +23,25 @@ inside the README.md of art.
 
 The reference images will update as well due to them being hosted on my Git repo, so its generally just nice to work with.
 
-*Feel free to contact me at Discord on [AT] flooferland*
+## Contribute art!
 
-*I also recommend you buy or build Aseprite from source to view the aseprite files.*
+If you'd like to add art to this repository, you can!
+
+Open up an [issue](https://github.com/FlooferLand/wplace-art/issues) (to ask for it to be added), or a [pull request](https://github.com/FlooferLand/wplace-art/pulls) (to add it yourself).
+
+Make sure you are *NOT* modifying any markdown *(md)* files yourself as those are automatically generated.
 
 ## License
 
 Some of these artworks have no license, some do. Always check before using any of them
 
 View the `LICENSE.md` of each directory respectively, as some are my own works.
+
+## Other stuff
+
+*Feel free to contact me at Discord on [AT] flooferland*
+
+*I also recommend you buy or build Aseprite from source to view the aseprite files.*
 
 ---
 

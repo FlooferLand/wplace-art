@@ -4,11 +4,11 @@
 
 ## Coords
 
-Top left pixel: [1584, 3137](TODO)
+Top left pixel: [1492, 3109](https://wplace.live/?lat=46.18171711654079&lng=21.35610318427733&zoom=15.905107758305785)
 
 ## Credits
 
-Author: Unknown
+Author: CleanTable #1894179
 
 ---
 
