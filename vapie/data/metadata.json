@@ -6,8 +6,8 @@
         "additional": "Original design by Nintendo"
     },
     "coords": {
-        "link": "TODO",
-        "top_left": { "x": -1, "y": -1 }
+        "link": "https://wplace.live/?lat=46.25481393022208&lng=21.381064121777342&zoom=15.922665954153272",
+        "top_left": { "x": 1634, "y": 2508 }
     },
     "png": "wplace_vapie.png",
     "license": "CC-BY-4.0"

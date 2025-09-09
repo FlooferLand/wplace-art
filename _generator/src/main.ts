@@ -117,6 +117,11 @@ const mainReadme = md.joinBlocks([
     md.orderedList(links.map(({ name, repo_link, wplace_link }) => `${md.link(repo_link, name)} ${md.link(wplace_link, md.italic("[Q]"))}`)),
     md.italic("Click the 'Q' for a quick link that takes you directly to the wplace url!"),
 
+    // Grief watch
+    md.heading("Grief watch", { level: 3 }),
+    "Currently griefed:",
+    "- W.I.P SECTION NOT FINISHED",
+
     // Help!
     md.heading("Help against griefers!", { level: 2 }),
     "If you'd like to help fight against griefers, click the coordinates inside the pages to be sent to their locations on wplace.",

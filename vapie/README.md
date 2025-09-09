@@ -4,7 +4,7 @@
 
 ## Coords
 
-Top left pixel: [-1, -1](TODO)
+Top left pixel: [1634, 2508](https://wplace.live/?lat=46.25481393022208&lng=21.381064121777342&zoom=15.922665954153272)
 
 ## Credits
 

@@ -9,9 +9,15 @@ This repo contains a bunch of art I'm making for wplace, as well as art I'm help
 3. [Puro](./puro/) [*[Q]*](https://wplace.live/?lat=46.16650172790631&lng=21.18735318427732&zoom=16.155257546899563)
 4. [Scav Prototype creature](./scav_creature/) [*[Q]*](https://wplace.live/?lat=46.17830923535645&lng=21.372275059277328&zoom=16.207932134442082)
 5. [The Finals logo](./the_finals_logo/) [*[Q]*](https://wplace.live/?lat=46.18171711654079&lng=21.35610318427733&zoom=15.905107758305785)
-6. [Vapie](./vapie/) [*[Q]*](TODO)
+6. [Vapie](./vapie/) [*[Q]*](https://wplace.live/?lat=46.25481393022208&lng=21.381064121777342&zoom=15.922665954153272)
 
 *Click the 'Q' for a quick link that takes you directly to the wplace url!*
+
+### Grief watch
+
+Currently griefed:
+
+- W.I.P SECTION NOT FINISHED
 
 ## Help against griefers!
 
