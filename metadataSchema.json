@@ -1,0 +1,85 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/GeneratorMetadata",
+    "definitions": {
+        "GeneratorMetadata": {
+            "type": "object",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "credits": {
+                    "type": "object",
+                    "properties": {
+                        "authors": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "The maintainers / helpers of the drawing"
+                        },
+                        "artists": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            },
+                            "description": "The people who actually made the art"
+                        },
+                        "additional": {
+                            "type": "string",
+                            "description": "Any additional credits"
+                        }
+                    },
+                    "required": [
+                        "authors"
+                    ],
+                    "additionalProperties": false
+                },
+                "license": {
+                    "type": "string"
+                },
+                "png": {
+                    "type": "string"
+                },
+                "coords": {
+                    "type": "object",
+                    "properties": {
+                        "link": {
+                            "type": "string",
+                            "description": "The Wplace link"
+                        },
+                        "top_left": {
+                            "type": "object",
+                            "properties": {
+                                "x": {
+                                    "type": "number"
+                                },
+                                "y": {
+                                    "type": "number"
+                                }
+                            },
+                            "required": [
+                                "x",
+                                "y"
+                            ],
+                            "additionalProperties": false,
+                            "description": "The top left pixel"
+                        }
+                    },
+                    "required": [
+                        "link",
+                        "top_left"
+                    ],
+                    "additionalProperties": false
+                }
+            },
+            "required": [
+                "name",
+                "credits",
+                "png",
+                "coords"
+            ],
+            "additionalProperties": false
+        }
+    }
+}

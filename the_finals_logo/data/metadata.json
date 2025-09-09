@@ -1,0 +1,11 @@
+{
+    "name": "The Finals logo",
+    "credits": {
+        "authors": ["Unknown"]
+    },
+    "coords": {
+        "link": "TODO",
+        "top_left": { "x": 1584, "y": 3137 }
+    },
+    "png": "the_finals_logo.png"
+}

@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run generator",
+            "type": "shell",
+            "command": "bun",
+            "args": ["run", "dev"],
+            "problemMatcher": [],
+            "options": {
+                "cwd": "./_generator"
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true,
+            }
+        }
+    ]
+}

@@ -8,5 +8,15 @@
         "Boykisser",
         "Boykissy",
         "Scav"
+    ],
+    "json.schemas": [
+        {
+            "fileMatch": ["*/data/metadata.json"],
+            "url": "./metadataSchema.json"
+        },
+        {
+            "fileMatch": ["*/data/overlay.json"],
+            "url": "./overlaySchema.json"
+        }
     ]
 }

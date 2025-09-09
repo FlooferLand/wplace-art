@@ -1,0 +1,14 @@
+{
+    "name": "Vapie",
+    "credits": {
+        "authors": ["FlooferLand (RO) #5674026"],
+        "artists": ["FlooferLand (RO)#5674026"],
+        "additional": "Original design by Nintendo"
+    },
+    "coords": {
+        "link": "TODO",
+        "top_left": { "x": -1, "y": -1 }
+    },
+    "png": "wplace_vapie.png",
+    "license": "CC-BY-4.0"
+}

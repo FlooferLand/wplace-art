@@ -1,0 +1,13 @@
+{
+    "name": "Scav Prototype creature",
+    "credits": {
+        "authors": ["TrueChaos #4309268"],
+        "artists": ["TrueChaos #4309268"],
+        "additional": "Original design from Scav Prototype"
+    },
+    "coords": {
+        "link": "TODO",
+        "top_left": { "x": 1584, "y": 3137 }
+    },
+    "png": "scav_creature.png"
+}

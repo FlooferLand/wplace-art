@@ -1,0 +1,42 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$ref": "#/definitions/GeneratorOverlay",
+    "definitions": {
+        "GeneratorOverlay": {
+            "type": "object",
+            "properties": {
+                "version": {
+                    "type": "number"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "imageUrl": {
+                    "type": "string"
+                },
+                "pixelUrl": {
+                    "type": "string"
+                },
+                "offsetX": {
+                    "type": "number"
+                },
+                "offsetY": {
+                    "type": "number"
+                },
+                "opacity": {
+                    "type": "number"
+                }
+            },
+            "required": [
+                "version",
+                "name",
+                "imageUrl",
+                "pixelUrl",
+                "offsetX",
+                "offsetY",
+                "opacity"
+            ],
+            "additionalProperties": false
+        }
+    }
+}
