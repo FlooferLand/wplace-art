@@ -97,10 +97,11 @@ for (const dataId of await fs.readdir(rootDirPath)) {
     const outDir = path.join(rootDirPath, dataId);
     await fs.writeFile(path.join(outDir, "README.md"), readme, { encoding: "utf8" });
 
-    // Finished
+    // Adding path to repo links & finished notice
+    const id = metadata.name.toLowerCase().trim().replaceAll(' ', '-');
     links.push({
         name: metadata.name,
-        repo_link: `./${dataId}/`,
+        repo_link: `./${dataId}#${id}`,
         wplace_link: metadata.coords.link
     });
     console.log(`Wrote to '${dataId}'!`);
@@ -114,7 +115,11 @@ const mainReadme = md.joinBlocks([
 
     // Index
     md.heading("Index", { level: 2 }),
-    md.orderedList(links.map(({ name, repo_link, wplace_link }) => `${md.link(repo_link, name)} ${md.link(wplace_link, md.italic("[Q]"))}`)),
+    md.orderedList(
+        links.map(({ name, repo_link, wplace_link }) => {
+            return `${md.link(repo_link, name)} ${md.link(wplace_link, md.italic("[Q]"))}`
+        })
+    ),
     md.italic("Click the 'Q' for a quick link that takes you directly to the wplace url!"),
 
     // Grief watch
