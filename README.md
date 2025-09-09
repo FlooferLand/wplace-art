@@ -8,6 +8,7 @@ as well as art I'm helping maintain.
 If you'd like to help, click the coordinates inside the README files to be sent to their locations.
 
 If you use any overlay mods, I've sometimes provided JSON files for [Overlay Pro](https://greasyfork.org/en/scripts/545041-wplace-overlay-pro) inside the README.md of art.
+The reference images will update as well, so its generally just nice.
 
 Feel free to contact me at Discord on \[AT\] flooferland
 
