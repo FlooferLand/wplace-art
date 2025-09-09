@@ -24,7 +24,7 @@ This art is licensed under [CC-BY-4.0](./LICENSE.md)
 {
     "version": 1,
     "name": "Vapie (by FlooferLand)",
-    "imageUrl": "https://github.com/FlooferLand/wplace-art/blob/main/vaporeon/wplace_vapie.png?raw=true",
+    "imageUrl": "https://github.com/FlooferLand/wplace-art/blob/main/vapie/wplace_vapie.png?raw=true",
     "pixelUrl": "https://backend.wplace.live/s0/pixel/1145/726?x=635&y=508",
     "offsetX": -1,
     "offsetY": -1,

@@ -3,6 +3,7 @@ import path from "node:path";
 import type { GeneratorMetadata, GeneratorOverlay } from "./types";
 import * as md from "ts-markdown-builder";
 import { formatUsers, generateSchema, loadJsonWithSchema } from "./util";
+import dedent from "dedent";
 
 console.clear();
 
@@ -13,6 +14,7 @@ const metadataSchema = await generateSchema(path.join(rootDirPath, "metadataSche
 const overlaySchema = await generateSchema(path.join(rootDirPath, "overlaySchema.json"), "GeneratorOverlay");
 
 // Reading everything
+let links: { name: string, link: string }[] = [];
 for (const dataId of await fs.readdir(rootDirPath)) {
     const rootSubDir = path.join(rootDirPath, dataId);
     const dataStat = await fs.lstat(rootSubDir);
@@ -91,5 +93,44 @@ for (const dataId of await fs.readdir(rootDirPath)) {
     await fs.writeFile(path.join(outDir, "README.md"), readme, { encoding: "utf8" });
 
     // Finished
+    links.push({
+        name: metadata.name,
+        link: `./${dataId}/`
+    });
     console.log(`Wrote to '${dataId}'!`);
 }
+
+// Generating main README.md
+const mainReadme = md.joinBlocks([
+    // Heading
+    md.heading("wplace-art"),
+    "This repo contains a bunch of art I'm making for wplace, as well as art I'm helping maintain.",
+
+    // Index
+    md.heading("Index", { level: 2 }),
+    md.orderedList(links.map(({ name, link }) => md.link(link, name))),
+
+    // Help!
+    md.heading("Help out!", { level: 2 }),
+    "If you'd like to help, click the coordinates inside the pages to be sent to their locations on wplace.",
+    dedent`
+        If you use any overlay mods,
+        I've sometimes provided JSON files for ${md.link("https://greasyfork.org/en/scripts/545041-wplace-overlay-pro", "Overlay Pro")}
+        inside the README.md of art.
+    `,
+    `The reference images will update as well due to them being hosted on my Git repo, so its generally just nice to work with.`,
+
+    // Contact
+    md.italic("Feel free to contact me at Discord on \[AT\] flooferland"),
+    md.italic("I also recommend you buy or build Aseprite from source to view the aseprite files."),
+
+    // License
+    md.heading("License", { level: 2 }),
+    "Some of these artworks have no license, some do. Always check before using any of them\n",
+    "View the `LICENSE.md` of each directory respectively, as some are my own works.",
+
+    // End note
+    md.horizontalRule,
+    md.blockquote("[!NOTE]\nAll README files in this repo are automatically generated via my [_generator/](./_generator) scripts to keep things consistent.")
+]);
+await fs.writeFile(path.join(rootDirPath, "README.md"), mainReadme, { encoding: "utf8" });
