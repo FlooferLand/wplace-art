@@ -41,6 +41,9 @@
                 "png": {
                     "type": "string"
                 },
+                "tile": {
+                    "type": "string"
+                },
                 "coords": {
                     "type": "object",
                     "properties": {

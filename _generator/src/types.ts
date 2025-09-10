@@ -14,6 +14,7 @@ export type GeneratorMetadata = {
     },
     license: string | undefined,
     png: string,
+    tile?: string,
     coords: {
         /** The Wplace link */
         link: string,
