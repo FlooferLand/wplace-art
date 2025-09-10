@@ -30,6 +30,8 @@ Unknown
 }
 ```
 
+> Use this with [Overlay Pro](https://greasyfork.org/en/scripts/545041-wplace-overlay-pro) in order to view the art as you're painting. It helps with repairs immensely.
+
 ---
 
 > [!NOTE]

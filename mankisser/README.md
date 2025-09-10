@@ -28,6 +28,8 @@ Top left pixel: [459, 3225](https://wplace.live/?lat=46.167597376524945&lng=21.1
 }
 ```
 
+> Use this with [Overlay Pro](https://greasyfork.org/en/scripts/545041-wplace-overlay-pro) in order to view the art as you're painting. It helps with repairs immensely.
+
 ---
 
 > [!NOTE]

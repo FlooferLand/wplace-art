@@ -52,7 +52,8 @@ for (const dataId of await fs.readdir(rootDirPath)) {
             // Writing the markdown
             overlayMd = md.joinBlocks([
                 md.heading("Overlay Pro overlay", { level: 2 }),
-                md.codeBlock(JSON.stringify(overlay, null, 4), { language: "json" })
+                md.codeBlock(JSON.stringify(overlay, null, 4), { language: "json" }),
+                `> Use this with ${md.link("https://greasyfork.org/en/scripts/545041-wplace-overlay-pro", "Overlay Pro")} in order to view the art as you're painting. It helps with repairs immensely.`
             ])
         }
     }
