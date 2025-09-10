@@ -1,6 +1,6 @@
 # Boykissy
 
-<img src="././boykissy.png" height="200px" style="image-rendering: pixelated;" />
+<img src="././boykissy.png" height="300px" style="image-rendering: pixelated;" />
 
 ## Coords
 

@@ -1,6 +1,6 @@
 # Mankisser
 
-<img src="././mankisser.png" height="200px" style="image-rendering: pixelated;" />
+<img src="././mankisser.png" height="300px" style="image-rendering: pixelated;" />
 
 ## Coords
 
@@ -18,12 +18,12 @@ Artist: qubaw #10637535 (@qubaw)
 ```
 {
     "version": 1,
-    "name": "Puro",
-    "imageUrl": "https://github.com/FlooferLand/wplace-art/blob/main/puro/wplace_puro.png?raw=true",
-    "pixelUrl": "https://backend.wplace.live/s0/pixel/1144/727?x=532&y=234",
+    "name": "Mankisser",
+    "imageUrl": "https://github.com/FlooferLand/wplace-art/raw/main/mankisser/mankisser.png",
+    "pixelUrl": "https://backend.wplace.live/s0/pixel/1144/727?x=459&y=225",
     "offsetX": 0,
     "offsetY": 0,
-    "opacity": 0.7
+    "opacity": 0.6
 }
 ```
 

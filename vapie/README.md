@@ -1,6 +1,6 @@
 # Vapie
 
-<img src="./wplace_vapie.png" height="200px" style="image-rendering: pixelated;" />
+<img src="./wplace_vapie.png" height="300px" style="image-rendering: pixelated;" />
 
 ## Coords
 
