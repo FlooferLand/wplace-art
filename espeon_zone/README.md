@@ -8,13 +8,13 @@ Top left pixel: [1240, 3160](https://wplace.live/?lat=46.17550974637054&lng=21.3
 
 ## Credits
 
-Author: FlooferLand (RO) #5674026 (@flooferland)
-
 1. Artists: RoughChain #2508295
 2. Artists: FlooferLand (RO) #5674026 (@flooferland)
 3. Artists: katiserie #611739 (@katiserie)
 4. Artists: SleepyRing #1707250
 5. Artists: alex #2108108 (@fearedandhungerisms)
+
+Maintainer: FlooferLand (RO) #5674026 (@flooferland)
 
 ## Overlay Pro overlay
 

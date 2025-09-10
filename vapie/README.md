@@ -8,9 +8,9 @@ Top left pixel: [1634, 2508](https://wplace.live/?lat=46.25481393022208&lng=21.3
 
 ## Credits
 
-Author: FlooferLand (RO) #5674026
-
 Artist: FlooferLand (RO) #5674026
+
+Maintainer: FlooferLand (RO) #5674026
 
 Original design by Nintendo
 

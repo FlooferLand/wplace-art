@@ -80,8 +80,8 @@ for (const dataId of await fs.readdir(rootDirPath)) {
 
         // Credits
         md.heading("Credits", { level: 2 }),
-        formatUsers("Author", metadata.credits.authors),
         formatUsers("Artist", metadata.credits.artists),
+        formatUsers("Maintainer", metadata.credits.maintainers),
         metadata.credits.additional != undefined ? metadata.credits.additional : "",
 
         // License

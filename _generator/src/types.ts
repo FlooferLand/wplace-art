@@ -4,7 +4,7 @@ export type GeneratorMetadata = {
     name: string,
     credits: {
         /** The maintainers / helpers of the drawing */
-        authors: Array<string>,
+        maintainers: Array<string>,
 
         /** The people who actually made the art */
         artists: Array<string> | undefined,

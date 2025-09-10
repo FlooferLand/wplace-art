@@ -42,17 +42,17 @@ export function formatUsers(singleName: string, users: string[] | undefined): st
         return split.map(s => s.trim()).join(' #');
     }
     
-    let authors = "";
+    let maintainers = "";
     if (users.length == 1 && users[0] !== undefined) {
-        authors = `${singleName}: ${formatUser(users[0])}`
+        maintainers = `${singleName}: ${formatUser(users[0])}`
     } else if (users.length > 0) {
-        authors += md.orderedList(
+        maintainers += md.orderedList(
             users
                 .filter(user => !user.startsWith("#"))
                 .map(user => `${singleName}s: ${formatUser(user)}`)
         );
     } else {
-        authors = "";
+        maintainers = "";
     }
-    return authors;
+    return maintainers;
 }

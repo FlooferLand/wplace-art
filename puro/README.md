@@ -8,10 +8,10 @@ Top left pixel: [532, 3234](https://wplace.live/?lat=46.16650172790631&lng=21.18
 
 ## Credits
 
-1. Authors: Player #1000495
-2. Authors: FlooferLand (RO) #5674026 (@flooferland)
-3. Authors: ClarNuKriszti #7821528
-4. Authors: qubaw #10637535 (@qubaw)
+1. Maintainers: Player #1000495
+2. Maintainers: FlooferLand (RO) #5674026 (@flooferland)
+3. Maintainers: ClarNuKriszti #7821528
+4. Maintainers: qubaw #10637535 (@qubaw)
 
 ## Overlay Pro overlay
 

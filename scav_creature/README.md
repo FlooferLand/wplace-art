@@ -8,9 +8,9 @@ Top left pixel: [1584, 3137](https://wplace.live/?lat=46.17830923535645&lng=21.3
 
 ## Credits
 
-Author: TrueChaos #4309268
-
 Artist: TrueChaos #4309268
+
+Maintainer: TrueChaos #4309268
 
 Original design from Scav Prototype
 

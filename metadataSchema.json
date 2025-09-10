@@ -11,7 +11,7 @@
                 "credits": {
                     "type": "object",
                     "properties": {
-                        "authors": {
+                        "maintainers": {
                             "type": "array",
                             "items": {
                                 "type": "string"
@@ -31,7 +31,7 @@
                         }
                     },
                     "required": [
-                        "authors"
+                        "maintainers"
                     ],
                     "additionalProperties": false
                 },
