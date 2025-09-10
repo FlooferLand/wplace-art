@@ -10,8 +10,9 @@ Top left pixel: [459, 3225](https://wplace.live/?lat=46.167597376524945&lng=21.1
 
 Artist: qubaw #10637535 (@qubaw)
 
-1. Maintainers: FlooferLand (RO) #5674026 (@flooferland)
-2. Maintainers: [MOD] unknown #1259659
+Maintainers: 
+1. FlooferLand (RO) #5674026 (@flooferland)
+2. [MOD] unknown #1259659
 
 ## Overlay Pro overlay
 

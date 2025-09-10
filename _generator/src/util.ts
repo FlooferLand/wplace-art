@@ -46,10 +46,10 @@ export function formatUsers(singleName: string, users: string[] | undefined): st
     if (users.length == 1 && users[0] !== undefined) {
         maintainers = `${singleName}: ${formatUser(users[0])}`
     } else if (users.length > 0) {
-        maintainers += md.orderedList(
+        maintainers += `${singleName}s: \n` + md.orderedList(
             users
                 .filter(user => !user.startsWith("#"))
-                .map(user => `${singleName}s: ${formatUser(user)}`)
+                .map(user => formatUser(user))
         );
     } else {
         maintainers = "";
