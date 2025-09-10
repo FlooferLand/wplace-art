@@ -8,7 +8,9 @@ Top left pixel: [1492, 3109](https://wplace.live/?lat=46.18171711654079&lng=21.3
 
 ## Credits
 
-Maintainer: CleanTable #1894179
+Unknown
+
+**Maintainer**: CleanTable #1894179
 
 ---
 

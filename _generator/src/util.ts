@@ -31,7 +31,7 @@ export async function loadJsonWithSchema<T>(filePath: string, schema: any): Prom
 /** Formats users as markdown */
 export function formatUsers(singleName: string, users: string[] | undefined): string {
     if (users == undefined) {
-        return ""
+        return "Unknown";
     }
     const formatUser = (name: string): string => {
         const split = name.split('#', 2);
@@ -44,9 +44,9 @@ export function formatUsers(singleName: string, users: string[] | undefined): st
     
     let maintainers = "";
     if (users.length == 1 && users[0] !== undefined) {
-        maintainers = `${singleName}: ${formatUser(users[0])}`
+        maintainers = `**${singleName}**: ${formatUser(users[0])}`
     } else if (users.length > 0) {
-        maintainers += `${singleName}s: \n` + md.orderedList(
+        maintainers += `**${singleName}s**: \n` + md.list(
             users
                 .filter(user => !user.startsWith("#"))
                 .map(user => formatUser(user))

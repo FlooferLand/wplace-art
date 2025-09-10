@@ -8,9 +8,9 @@ Top left pixel: [1415, 3101](https://wplace.live/?lat=46.182690758083275&lng=21.
 
 ## Credits
 
-Artist: FlooferLand (RO) #5674026 (@flooferland)
+**Artist**: FlooferLand (RO) #5674026 (@flooferland)
 
-Maintainer: FlooferLand (RO) #5674026 (@flooferland)
+**Maintainer**: FlooferLand (RO) #5674026 (@flooferland)
 
 ---
 
