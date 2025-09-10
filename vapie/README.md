@@ -20,7 +20,7 @@ This art is licensed under [CC-BY-4.0](./LICENSE.md)
 
 ## Overlay Pro overlay
 
-```
+```json
 {
     "version": 1,
     "name": "Vapie (by FlooferLand)",

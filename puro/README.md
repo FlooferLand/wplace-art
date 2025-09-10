@@ -18,7 +18,7 @@ Unknown
 
 ## Overlay Pro overlay
 
-```
+```json
 {
     "version": 1,
     "name": "Puro",

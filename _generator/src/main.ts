@@ -52,7 +52,7 @@ for (const dataId of await fs.readdir(rootDirPath)) {
             // Writing the markdown
             overlayMd = md.joinBlocks([
                 md.heading("Overlay Pro overlay", { level: 2 }),
-                md.codeBlock(JSON.stringify(overlay, null, 4))
+                md.codeBlock(JSON.stringify(overlay, null, 4), { language: "json" })
             ])
         }
     }

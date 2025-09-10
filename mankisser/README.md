@@ -16,7 +16,7 @@ Top left pixel: [459, 3225](https://wplace.live/?lat=46.167597376524945&lng=21.1
 
 ## Overlay Pro overlay
 
-```
+```json
 {
     "version": 1,
     "name": "Mankisser",

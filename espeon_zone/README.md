@@ -19,7 +19,7 @@ Top left pixel: [1240, 3160](https://wplace.live/?lat=46.17550974637054&lng=21.3
 
 ## Overlay Pro overlay
 
-```
+```json
 {
     "version": 1,
     "name": "Espeon area",
