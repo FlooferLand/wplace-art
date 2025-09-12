@@ -1,6 +1,6 @@
 # Random logo area
 
-<img src="./random_logo_area.png" height="300px" style="image-rendering: pixelated; width: 100%; height: 300px" />
+<img src="./random_logo_area.png" height="300px" style="image-rendering: pixelated" />
 
 ## Coords
 

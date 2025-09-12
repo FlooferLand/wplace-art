@@ -73,7 +73,7 @@ for (const dataId of await fs.readdir(rootDirPath)) {
         header,
         
         // Preview
-        `<img src="./${metadata.png}" height="300px" style="image-rendering: pixelated; width: 100%; height: 300px" />`,
+        `<img src="./${metadata.png}" height="300px" style="image-rendering: pixelated" />`,
         
         // Coords
         md.heading("Coords", { level: 2 }),
