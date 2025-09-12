@@ -1,6 +1,6 @@
 # Silly Umbri
 
-<img src="././silly_umbri.png" height="300px" style="image-rendering: pixelated; height: 300px;" />
+<img src="././silly_umbri.png" height="300px" style="image-rendering: pixelated; width: 100%; height: 300px" />
 
 ## Coords
 

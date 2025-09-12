@@ -1,6 +1,6 @@
 # Mankisser
 
-<img src="././mankisser.png" height="300px" style="image-rendering: pixelated; height: 300px;" />
+<img src="././mankisser.png" height="300px" style="image-rendering: pixelated; width: 100%; height: 300px" />
 
 ## Coords
 
