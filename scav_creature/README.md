@@ -1,6 +1,6 @@
 # Scav Prototype creature
 
-<img src="./scav_creature.png" height="500px" style="image-rendering: pixelated;" />
+<img src="./scav_creature.png" height="300px" style="image-rendering: pixelated; height: 300px;" />
 
 ## Coords
 

@@ -1,6 +1,6 @@
 # Espeon zone
 
-<img src="././espeon_zone.png" height="500px" style="image-rendering: pixelated;" />
+<img src="././espeon_zone.png" height="300px" style="image-rendering: pixelated; height: 300px;" />
 
 ## Coords
 

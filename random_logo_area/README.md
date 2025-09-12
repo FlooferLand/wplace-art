@@ -1,10 +1,10 @@
-# The Finals logo
+# Random logo area
 
-<img src="./random_logo_area.png" height="500px" style="image-rendering: pixelated;" />
+<img src="./random_logo_area.png" height="300px" style="image-rendering: pixelated; height: 300px;" />
 
 ## Coords
 
-Top left pixel: [1465, 3128](https://wplace.live/?lat=46.18171711654079&lng=21.35610318427733&zoom=15.905107758305785)
+Top left pixel: [1465, 3128](https://wplace.live/?lat=46.17940464877223&lng=21.35135709052734&zoom=16.15752932759413)
 
 ## Credits
 

@@ -8,7 +8,7 @@ This repo contains a bunch of art I'm making for wplace, as well as art I'm help
 2. [Espeon zone](./espeon_zone#espeon-zone) [*[Q]*](https://wplace.live/?lat=46.17550974637054&lng=21.311806309277333&zoom=16.475640118883295)
 3. [Mankisser](./mankisser#mankisser) [*[Q]*](https://wplace.live/?lat=46.167597376524945&lng=21.174521153027314&zoom=15.735728330724765)
 4. [Puro](./puro#puro) [*[Q]*](https://wplace.live/?lat=46.16650172790631&lng=21.18735318427732&zoom=16.155257546899563)
-5. [The Finals logo](./random_logo_area#the-finals-logo) [*[Q]*](https://wplace.live/?lat=46.18171711654079&lng=21.35610318427733&zoom=15.905107758305785)
+5. [Random logo area](./random_logo_area#random-logo-area) [*[Q]*](https://wplace.live/?lat=46.17940464877223&lng=21.35135709052734&zoom=16.15752932759413)
 6. [Scav Prototype creature](./scav_creature#scav-prototype-creature) [*[Q]*](https://wplace.live/?lat=46.17830923535645&lng=21.372275059277328&zoom=16.207932134442082)
 7. [Silly Umbri](./silly_umbri#silly-umbri) [*[Q]*](https://wplace.live/?lat=46.159318602056246&lng=21.170478184277325&zoom=15.640551645565136)
 8. [The Finals logo](./the_finals_logo#the-finals-logo) [*[Q]*](https://wplace.live/?lat=46.18171711654079&lng=21.35610318427733&zoom=15.905107758305785)

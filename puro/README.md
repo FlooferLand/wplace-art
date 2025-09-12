@@ -1,6 +1,6 @@
 # Puro
 
-<img src="././wplace_puro.png" height="500px" style="image-rendering: pixelated;" />
+<img src="././wplace_puro.png" height="300px" style="image-rendering: pixelated; height: 300px;" />
 
 ## Coords
 
