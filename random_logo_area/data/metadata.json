@@ -1,0 +1,12 @@
+{
+    "name": "The Finals logo",
+    "credits": {
+        "maintainers": ["FlooferLand (RO) #5674026 (@flooferland)"]
+    },
+    "coords": {
+        "link": "https://wplace.live/?lat=46.18171711654079&lng=21.35610318427733&zoom=15.905107758305785",
+        "top_left": { "x": 1465, "y": 3128 }
+    },
+    "tile": "https://backend.wplace.live/files/s0/tiles/1145/727.png",
+    "png": "random_logo_area.png"
+}
