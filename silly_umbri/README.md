@@ -1,6 +1,6 @@
 # Silly Umbri
 
-<img src="././silly_umbri.png" height="300px" style="image-rendering: pixelated;" />
+<img src="././silly_umbri.png" height="500px" style="image-rendering: pixelated;" />
 
 ## Coords
 
@@ -17,12 +17,12 @@ Top left pixel: [436, 3293](https://wplace.live/?lat=46.159318602056246&lng=21.1
 ```json
 {
     "version": 1,
-    "name": "Mankisser",
-    "imageUrl": "https://github.com/FlooferLand/wplace-art/raw/main/mankisser/mankisser.png",
-    "pixelUrl": "https://backend.wplace.live/s0/pixel/1144/727?x=459&y=225",
+    "name": "Silly umbri",
+    "imageUrl": "https://github.com/FlooferLand/wplace-art/raw/main/silly_umbri/silly_umbri.png",
+    "pixelUrl": "https://backend.wplace.live/s0/pixel/1144/727?x=436&y=292",
     "offsetX": 0,
     "offsetY": 0,
-    "opacity": 0.6
+    "opacity": 0.7
 }
 ```
 

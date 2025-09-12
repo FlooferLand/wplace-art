@@ -1,6 +1,6 @@
 # The Finals logo
 
-<img src="./the_finals_logo.png" height="300px" style="image-rendering: pixelated;" />
+<img src="./the_finals_logo.png" height="500px" style="image-rendering: pixelated;" />
 
 ## Coords
 
