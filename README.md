@@ -1,5 +1,12 @@
 # wplace-art
 
+## ARCHIVAL NOTICE
+This repo has moved and expanded to https://github.com/FlooferLand/wsearch.
+
+Visit https://wsearch.flooferland.com for instance
+
+---
+
 This repo contains a bunch of art I'm making for wplace, as well as art I'm helping maintain.
 
 ## Index
